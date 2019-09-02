@@ -2,8 +2,16 @@
 title: "Untitled"
 author: "sugyeong jo"
 date: '2019 9 2 '
-output: html_document
+output: 
+  md_document:
+    variant: markdown_github
 ---
+
+```{r}
+#library(knitr)
+
+#knitr("RGitHub.Rmd")
+```
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
